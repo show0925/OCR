@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroOCR", "NeuroOCR\NeuroOCR.csproj", "{7299C3B8-573D-43B6-BF87-301FE68DA431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "AForge\Math\Math.csproj", "{502C5328-EA0A-4A0C-A75A-413557846854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNet", "AForge\NeuralNet\NeuralNet.csproj", "{F0C0614C-871D-4BDF-B325-871BE98110B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7299C3B8-573D-43B6-BF87-301FE68DA431}.Debug.ActiveCfg = Debug|.NET
+		{7299C3B8-573D-43B6-BF87-301FE68DA431}.Debug.Build.0 = Debug|.NET
+		{7299C3B8-573D-43B6-BF87-301FE68DA431}.Release.ActiveCfg = Release|.NET
+		{7299C3B8-573D-43B6-BF87-301FE68DA431}.Release.Build.0 = Release|.NET
+		{502C5328-EA0A-4A0C-A75A-413557846854}.Debug.ActiveCfg = Debug|.NET
+		{502C5328-EA0A-4A0C-A75A-413557846854}.Debug.Build.0 = Debug|.NET
+		{502C5328-EA0A-4A0C-A75A-413557846854}.Release.ActiveCfg = Release|.NET
+		{502C5328-EA0A-4A0C-A75A-413557846854}.Release.Build.0 = Release|.NET
+		{F0C0614C-871D-4BDF-B325-871BE98110B7}.Debug.ActiveCfg = Debug|.NET
+		{F0C0614C-871D-4BDF-B325-871BE98110B7}.Debug.Build.0 = Debug|.NET
+		{F0C0614C-871D-4BDF-B325-871BE98110B7}.Release.ActiveCfg = Release|.NET
+		{F0C0614C-871D-4BDF-B325-871BE98110B7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
